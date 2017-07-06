@@ -19,3 +19,7 @@ print(ratingValue) // 3 - Use to show the right number of stars
 
 let ratingString = ratingValueAndDisplayString.1
 print(ratingString) // "3 Star Movie" - Use to put in the label
+
+let (nextValue, nextString) = normalisedStarRating(forRating: 8, ofPossibleTotal: 10)
+print(nextValue)  // 4
+print(nextString) // "4 Star Movie"
